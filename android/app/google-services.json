@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "278042122208",
+    "firebase_url": "https://omenu-staging-default-rtdb.firebaseio.com",
+    "project_id": "omenu-staging",
+    "storage_bucket": "omenu-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278042122208:android:cce09ad78d3a848976fd85",
+        "android_client_info": {
+          "package_name": "com.emenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278042122208-s65lf4lj4o147br37ofm3ceebu7b843v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSX-_PdKmQSoshI55tC8Mlli77gxec-zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278042122208-s65lf4lj4o147br37ofm3ceebu7b843v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "278042122208-1p5qp8bf83q8cu3u32o9vbkdjjve20am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.midota.omenu"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278042122208:android:334fbc034dd6936d76fd85",
+        "android_client_info": {
+          "package_name": "com.omenustaff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278042122208-s65lf4lj4o147br37ofm3ceebu7b843v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSX-_PdKmQSoshI55tC8Mlli77gxec-zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278042122208-s65lf4lj4o147br37ofm3ceebu7b843v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "278042122208-1p5qp8bf83q8cu3u32o9vbkdjjve20am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.midota.omenu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

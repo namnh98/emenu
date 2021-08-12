@@ -1,0 +1,586 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.omenustaff"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:5:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:6:5-73
+14-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:6:22-71
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:7:5-79
+15-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/2ad58bb8e757dd6f12ce6b514d91d272/flipper-0.54.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/2ad58bb8e757dd6f12ce6b514d91d272/flipper-0.54.0/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:11:5-68
+17-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:12:5-79
+18-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:13:5-81
+19-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:14:5-66
+20-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:14:22-63
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:16:5-77
+21-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:16:22-74
+22    <uses-permission android:name="android.hardware.usb.UsbAccessory" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[:react-native-thermal-receipt-printer] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/react-native-thermal-receipt-printer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-73
+22-->[:react-native-thermal-receipt-printer] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/react-native-thermal-receipt-printer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-70
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.android.gms:play-services-iid:17.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/1de78617ce0b94500695466df4e86df2/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+23-->[com.google.android.gms:play-services-iid:17.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/1de78617ce0b94500695466df4e86df2/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.android.installreferrer:installreferrer:1.1.2] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/d431b31842b512260320ca8dd0e17819/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+24-->[com.android.installreferrer:installreferrer:1.1.2] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/d431b31842b512260320ca8dd0e17819/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+25
+26    <application
+26-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:9:5-36:19
+27        android:name="com.omenustaff.MainApplication"
+27-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:9:18-49
+28        android:allowBackup="false"
+28-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:13:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.2] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b59f4a4193622ca399cce5a2e33999ae/core-1.3.2/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/logo_staff"
+31-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:11:7-40
+32        android:label="@string/app_name"
+32-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:10:7-39
+33        android:roundIcon="@mipmap/logo_staff"
+33-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:12:7-45
+34        android:theme="@style/SplashTheme"
+34-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:14:7-41
+35        android:usesCleartextTraffic="true" >
+35-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/debug/AndroidManifest.xml:8:9-44
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:35:7-84
+36-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:35:17-81
+37
+38        <service
+38-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:15:9-17:13
+39            android:name="com.emenu.Headless"
+39-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:15:18-51
+40            android:enabled="true"
+40-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:16:7-29
+41            android:exported="false" >
+41-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:16:30-54
+42        </service>
+43
+44        <activity
+44-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:18:7-34:18
+45            android:name="com.omenustaff.MainActivity"
+45-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:19:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+46-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:21:9-86
+47            android:label="@string/app_name"
+47-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:20:9-41
+48            android:launchMode="singleTask"
+48-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:22:9-40
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:23:9-51
+50            <intent-filter>
+50-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:24:9-27:25
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:25:13-65
+51-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:25:21-62
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:26:13-73
+53-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:26:23-70
+54            </intent-filter>
+55            <intent-filter>
+55-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:28:9-33:25
+56                <action android:name="android.intent.action.VIEW" />
+56-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:29:13-65
+56-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:29:21-62
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:30:13-72
+58-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:30:23-69
+59                <category android:name="android.intent.category.BROWSABLE" />
+59-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:31:13-74
+59-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:31:23-71
+60
+61                <data android:scheme="omenu" />
+61-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:32:13-44
+61-->/Users/namnguyen/Desktop/reactnative/app-staff-v2/android/app/src/main/AndroidManifest.xml:32:19-41
+62            </intent-filter>
+63        </activity>
+64
+65        <provider
+65-->[:notifee_react-native] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:40
+66            android:name="io.invertase.notifee.NotifeeInitProvider"
+66-->[:notifee_react-native] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-68
+67            android:authorities="com.omenustaff.notifee-init-provider"
+67-->[:notifee_react-native] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-73
+68            android:exported="false"
+68-->[:notifee_react-native] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+69            android:initOrder="-100" /> <!-- Receiver Service -->
+69-->[:notifee_react-native] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
+70        <service
+70-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:21:9-23:40
+71            android:name="app.notifee.core.ReceiverService"
+71-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:22:13-60
+72            android:exported="false" /> <!-- Foreground Service -->
+72-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:23:13-37
+73        <service
+73-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:26:9-28:40
+74            android:name="app.notifee.core.ForegroundService"
+74-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:27:13-62
+75            android:exported="false" /> <!-- Broadcast Receiver -->
+75-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:28:13-37
+76        <receiver
+76-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:31:9-39:20
+77            android:name="app.notifee.core.BlockStateBroadcastReceiver"
+77-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:32:13-72
+78            android:exported="false" >
+78-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:33:13-37
+79            <intent-filter>
+79-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:34:13-38:29
+80                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+80-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:35:17-85
+80-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:35:25-82
+81                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+81-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:36:17-102
+81-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:36:25-99
+82                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+82-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:37:17-108
+82-->[notifee_core_release.aar] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a372125b262a94e151954e6b238cac6a/notifee_core_release/AndroidManifest.xml:37:25-105
+83            </intent-filter>
+84        </receiver>
+85
+86        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+86-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+86-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+87        <service
+87-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+88            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+88-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+89            android:exported="false" >
+89-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+90            <intent-filter>
+90-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+91                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+91-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+91-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+92            </intent-filter>
+93        </service>
+94
+95        <receiver
+95-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+96            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+96-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+97            android:exported="true"
+97-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+98            android:permission="com.google.android.c2dm.permission.SEND" >
+98-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+99            <intent-filter>
+99-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+100                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+100-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+100-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+101            </intent-filter>
+102        </receiver>
+103
+104        <meta-data
+104-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+105            android:name="firebase_messaging_auto_init_enabled"
+105-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+106            android:value="true" />
+106-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+107        <meta-data
+107-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+108            android:name="com.google.firebase.messaging.default_notification_channel_id"
+108-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+109            android:value="" />
+109-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+110        <meta-data
+110-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+111            android:name="com.google.firebase.messaging.default_notification_color"
+111-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+112            android:resource="@color/white" />
+112-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+113        <!--
+114             FirebaseMessagingService performs security checks at runtime,
+115             but set to not exported to explicitly avoid allowing another app to call it.
+116        -->
+117        <service
+117-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+118            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+118-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+121            <intent-filter android:priority="-500" >
+121-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+122-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+123            </intent-filter>
+124        </service>
+125        <service
+125-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+126            android:name="com.google.firebase.components.ComponentDiscoveryService"
+126-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+127            android:directBootAware="true"
+127-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+128            android:exported="false" >
+128-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+129            <meta-data
+129-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+130                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+130-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-messaging:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/37d7b276f81699c31ccaeebfb33441b3/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a1c7f9c009c8e270345a1fd3d57d5b48/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+133                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+133-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a1c7f9c009c8e270345a1fd3d57d5b48/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/a1c7f9c009c8e270345a1fd3d57d5b48/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-iid:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b6c497fcc6884c56f109cea82fe24b60/firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+136                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+136-->[com.google.firebase:firebase-iid:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b6c497fcc6884c56f109cea82fe24b60/firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-iid:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b6c497fcc6884c56f109cea82fe24b60/firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-installations:16.3.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/cb337f414fc3673a22f2f22a414d4705/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+139                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+139-->[com.google.firebase:firebase-installations:16.3.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/cb337f414fc3673a22f2f22a414d4705/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-installations:16.3.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/cb337f414fc3673a22f2f22a414d4705/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+141            <!--
+142                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+143                clients to use it as well, by defining this registrar in their own core/common library.
+144            -->
+145            <meta-data
+145-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+146                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+146-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+148        </service>
+149        <service
+149-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b56ae6704e3e180b298eb4c7abd773bb/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+150            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+150-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b56ae6704e3e180b298eb4c7abd773bb/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+151            android:exported="false" >
+151-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b56ae6704e3e180b298eb4c7abd773bb/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+152            <meta-data
+152-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b56ae6704e3e180b298eb4c7abd773bb/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+153                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+153-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b56ae6704e3e180b298eb4c7abd773bb/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+154                android:value="cct" />
+154-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b56ae6704e3e180b298eb4c7abd773bb/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+155        </service>
+156        <service
+156-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/05579a626b59de4a6f693575ea228c8d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+157            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+157-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/05579a626b59de4a6f693575ea228c8d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+158            android:exported="false"
+158-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/05579a626b59de4a6f693575ea228c8d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+159            android:permission="android.permission.BIND_JOB_SERVICE" >
+159-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/05579a626b59de4a6f693575ea228c8d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+160        </service>
+161
+162        <receiver
+162-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/05579a626b59de4a6f693575ea228c8d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+163            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+163-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/05579a626b59de4a6f693575ea228c8d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+164            android:exported="false" />
+164-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/05579a626b59de4a6f693575ea228c8d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+165
+166        <provider
+166-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:31:9-37:35
+167            android:name="androidx.work.impl.WorkManagerInitializer"
+167-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:32:13-69
+168            android:authorities="com.omenustaff.workmanager-init"
+168-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:33:13-68
+169            android:directBootAware="false"
+169-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:34:13-44
+170            android:exported="false"
+170-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:35:13-37
+171            android:multiprocess="true" />
+171-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:36:13-40
+172
+173        <service
+173-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:39:9-44:35
+174            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+174-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:40:13-88
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:41:13-44
+176            android:enabled="@bool/enable_system_alarm_service_default"
+176-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:42:13-72
+177            android:exported="false" />
+177-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:43:13-37
+178        <service
+178-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:45:9-51:35
+179            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+179-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:46:13-84
+180            android:directBootAware="false"
+180-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:47:13-44
+181            android:enabled="@bool/enable_system_job_service_default"
+181-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:48:13-70
+182            android:exported="true"
+182-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:49:13-36
+183            android:permission="android.permission.BIND_JOB_SERVICE" />
+183-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:50:13-69
+184        <service
+184-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:52:9-57:35
+185            android:name="androidx.work.impl.foreground.SystemForegroundService"
+185-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:53:13-81
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:54:13-44
+187            android:enabled="@bool/enable_system_foreground_service_default"
+187-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:55:13-77
+188            android:exported="false" />
+188-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:56:13-37
+189
+190        <receiver
+190-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:59:9-64:35
+191            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+191-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:60:13-88
+192            android:directBootAware="false"
+192-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:61:13-44
+193            android:enabled="true"
+193-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:62:13-35
+194            android:exported="false" />
+194-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:63:13-37
+195        <receiver
+195-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:65:9-75:20
+196            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+196-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:66:13-106
+197            android:directBootAware="false"
+197-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:67:13-44
+198            android:enabled="false"
+198-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:68:13-36
+199            android:exported="false" >
+199-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:69:13-37
+200            <intent-filter>
+200-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:71:13-74:29
+201                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+201-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:72:17-87
+201-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:72:25-84
+202                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+202-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:73:17-90
+202-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:73:25-87
+203            </intent-filter>
+204        </receiver>
+205        <receiver
+205-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:76:9-86:20
+206            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+206-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:77:13-104
+207            android:directBootAware="false"
+207-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:78:13-44
+208            android:enabled="false"
+208-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:79:13-36
+209            android:exported="false" >
+209-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:80:13-37
+210            <intent-filter>
+210-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:82:13-85:29
+211                <action android:name="android.intent.action.BATTERY_OKAY" />
+211-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:83:17-77
+211-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:83:25-74
+212                <action android:name="android.intent.action.BATTERY_LOW" />
+212-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:84:17-76
+212-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:84:25-73
+213            </intent-filter>
+214        </receiver>
+215        <receiver
+215-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:87:9-97:20
+216            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+216-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:88:13-104
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:89:13-44
+218            android:enabled="false"
+218-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:90:13-36
+219            android:exported="false" >
+219-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:91:13-37
+220            <intent-filter>
+220-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:93:13-96:29
+221                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+221-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:94:17-83
+221-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:94:25-80
+222                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+222-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:95:17-82
+222-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:95:25-79
+223            </intent-filter>
+224        </receiver>
+225        <receiver
+225-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:98:9-107:20
+226            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+226-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:99:13-103
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:100:13-44
+228            android:enabled="false"
+228-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:101:13-36
+229            android:exported="false" >
+229-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:102:13-37
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:104:13-106:29
+231                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+231-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:105:17-79
+231-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:105:25-76
+232            </intent-filter>
+233        </receiver>
+234        <receiver
+234-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:108:9-119:20
+235            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+235-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:109:13-88
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:110:13-44
+237            android:enabled="false"
+237-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:111:13-36
+238            android:exported="false" >
+238-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:112:13-37
+239            <intent-filter>
+239-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:114:13-118:29
+240                <action android:name="android.intent.action.BOOT_COMPLETED" />
+240-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:115:17-79
+240-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:115:25-76
+241                <action android:name="android.intent.action.TIME_SET" />
+241-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:116:17-73
+241-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:116:25-70
+242                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+242-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:117:17-81
+242-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:117:25-78
+243            </intent-filter>
+244        </receiver>
+245        <receiver
+245-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:120:9-129:20
+246            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+246-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:121:13-99
+247            android:directBootAware="false"
+247-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:122:13-44
+248            android:enabled="@bool/enable_system_alarm_service_default"
+248-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:123:13-72
+249            android:exported="false" >
+249-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:124:13-37
+250            <intent-filter>
+250-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:126:13-128:29
+251                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+251-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:127:17-98
+251-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:127:25-95
+252            </intent-filter>
+253        </receiver>
+254        <receiver
+254-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:130:9-140:20
+255            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+255-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:131:13-78
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:132:13-44
+257            android:enabled="true"
+257-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:133:13-35
+258            android:exported="true"
+258-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:134:13-36
+259            android:permission="android.permission.DUMP" >
+259-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:135:13-57
+260            <intent-filter>
+260-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:137:13-139:29
+261                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+261-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:138:17-88
+261-->[androidx.work:work-runtime:2.4.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/844c434dec380e9a1ac4d02aed17f74a/work-runtime-2.4.0/AndroidManifest.xml:138:25-85
+262            </intent-filter>
+263        </receiver>
+264
+265        <activity
+265-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+266            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+266-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+267            android:excludeFromRecents="true"
+267-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+268            android:exported="false"
+268-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+269            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+269-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+270        <!--
+271            Service handling Google Sign-In user revocation. For apps that do not integrate with
+272            Google Sign-In, this service will never be started.
+273        -->
+274        <service
+274-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+275            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+275-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+276            android:exported="true"
+276-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+277            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+277-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+278            android:visibleToInstantApps="true" />
+278-->[com.google.android.gms:play-services-auth:19.0.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/5e8c24e6054c0f527d91e1388e1d6488/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+279
+280        <receiver
+280-->[com.google.firebase:firebase-iid:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b6c497fcc6884c56f109cea82fe24b60/firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+281            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+281-->[com.google.firebase:firebase-iid:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b6c497fcc6884c56f109cea82fe24b60/firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+282            android:exported="true"
+282-->[com.google.firebase:firebase-iid:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b6c497fcc6884c56f109cea82fe24b60/firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+283            android:permission="com.google.android.c2dm.permission.SEND" >
+283-->[com.google.firebase:firebase-iid:21.0.1] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b6c497fcc6884c56f109cea82fe24b60/firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+284            <intent-filter>
+284-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+285                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+285-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+285-->[:react-native-firebase_messaging] /Users/namnguyen/Desktop/reactnative/app-staff-v2/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+286            </intent-filter>
+287        </receiver>
+288
+289        <provider
+289-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+290            android:name="com.google.firebase.provider.FirebaseInitProvider"
+290-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+291            android:authorities="com.omenustaff.firebaseinitprovider"
+291-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+292            android:directBootAware="true"
+292-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+293            android:exported="false"
+293-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+294            android:initOrder="100" />
+294-->[com.google.firebase:firebase-common:19.5.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/b22bfd90556ca45671d26eb71a2f7e89/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+295
+296        <activity
+296-->[com.google.android.gms:play-services-base:17.1.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/71bc0d18d8b6f4b8d96da918373ea82c/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+297            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+297-->[com.google.android.gms:play-services-base:17.1.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/71bc0d18d8b6f4b8d96da918373ea82c/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+298            android:exported="false"
+298-->[com.google.android.gms:play-services-base:17.1.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/71bc0d18d8b6f4b8d96da918373ea82c/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+299            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+299-->[com.google.android.gms:play-services-base:17.1.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/71bc0d18d8b6f4b8d96da918373ea82c/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+300
+301        <meta-data
+301-->[com.google.android.gms:play-services-basement:17.3.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/3f93053bf9a08f1461678a3ae4bb7bbf/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
+302            android:name="com.google.android.gms.version"
+302-->[com.google.android.gms:play-services-basement:17.3.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/3f93053bf9a08f1461678a3ae4bb7bbf/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
+303            android:value="@integer/google_play_services_version" />
+303-->[com.google.android.gms:play-services-basement:17.3.0] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/3f93053bf9a08f1461678a3ae4bb7bbf/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
+304
+305        <service
+305-->[androidx.room:room-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/fbbaac6114c776fa9d1365b158ec7651/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+306            android:name="androidx.room.MultiInstanceInvalidationService"
+306-->[androidx.room:room-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/fbbaac6114c776fa9d1365b158ec7651/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+307            android:directBootAware="true"
+307-->[androidx.room:room-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/fbbaac6114c776fa9d1365b158ec7651/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+308            android:exported="false" />
+308-->[androidx.room:room-runtime:2.2.5] /Users/namnguyen/.gradle/caches/transforms-2/files-2.1/fbbaac6114c776fa9d1365b158ec7651/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+309    </application>
+310
+311</manifest>

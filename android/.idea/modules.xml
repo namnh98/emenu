@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OmenuStaff.iml" filepath="$PROJECT_DIR$/.idea/modules/OmenuStaff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1853055423/OmenuStaff.@react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1853055423/OmenuStaff.@react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OmenuStaff.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OmenuStaff.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1533592504/OmenuStaff.notifee_react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/-1533592504/OmenuStaff.notifee_react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1527055009/OmenuStaff.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1527055009/OmenuStaff.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1498338016/OmenuStaff.react-native-code-push.iml" filepath="$PROJECT_DIR$/.idea/modules/-1498338016/OmenuStaff.react-native-code-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1652980775/OmenuStaff.react-native-community_art.iml" filepath="$PROJECT_DIR$/.idea/modules/-1652980775/OmenuStaff.react-native-community_art.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1222016173/OmenuStaff.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1222016173/OmenuStaff.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-233766371/OmenuStaff.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-233766371/OmenuStaff.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1853055423/OmenuStaff.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1853055423/OmenuStaff.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/657470297/OmenuStaff.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/657470297/OmenuStaff.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-757788168/OmenuStaff.react-native-extra-dimensions-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-757788168/OmenuStaff.react-native-extra-dimensions-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-642199875/OmenuStaff.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-642199875/OmenuStaff.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-40543328/OmenuStaff.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-40543328/OmenuStaff.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-874628774/OmenuStaff.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-874628774/OmenuStaff.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2131851978/OmenuStaff.react-native-i18n.iml" filepath="$PROJECT_DIR$/.idea/modules/2131851978/OmenuStaff.react-native-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2077322323/OmenuStaff.react-native-image-base64.iml" filepath="$PROJECT_DIR$/.idea/modules/-2077322323/OmenuStaff.react-native-image-base64.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/669676674/OmenuStaff.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/669676674/OmenuStaff.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1946706755/OmenuStaff.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1946706755/OmenuStaff.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/635923227/OmenuStaff.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/635923227/OmenuStaff.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1690527992/OmenuStaff.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/1690527992/OmenuStaff.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1074348638/OmenuStaff.react-native-system-setting.iml" filepath="$PROJECT_DIR$/.idea/modules/1074348638/OmenuStaff.react-native-system-setting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1215505181/OmenuStaff.react-native-thermal-receipt-printer.iml" filepath="$PROJECT_DIR$/.idea/modules/-1215505181/OmenuStaff.react-native-thermal-receipt-printer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2006445244/OmenuStaff.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/2006445244/OmenuStaff.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1199208118/OmenuStaff.react-native-view-shot.iml" filepath="$PROJECT_DIR$/.idea/modules/1199208118/OmenuStaff.react-native-view-shot.iml" />
+    </modules>
+  </component>
+</project>
